@@ -1,0 +1,50 @@
+body {
+  background-color: #f0f7fa;
+  font-family: 'Arial', sans-serif;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+/* Add shadows to buttons */
+button, button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
